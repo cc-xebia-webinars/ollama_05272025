@@ -1,0 +1,5 @@
+.DS_Store
+venv
+demos/data/job_postings.csv
+.mypy_cache
+output

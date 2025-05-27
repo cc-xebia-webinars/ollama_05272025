@@ -1,0 +1,49 @@
+{
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.minimap.enabled": false,
+    "explorer.compactFolders": false,
+    "editor.rulers": [
+        79
+    ],
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit",
+            "source.fixAll": "explicit"
+        }
+    },
+    "mypy-type-checker.severity": {
+        "error": "Error",
+        "warning": "Error",
+        "note": "Error",
+        "info": "Error"
+    },
+    "mypy-type-checker.args": [
+        "--config-file=.vscode/mypy.ini"
+    ],    
+    "ruff.nativeServer": "on",
+    "ruff.lineLength": 79,
+    "ruff.lint.select": ["E", "F", "W", "N"],
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.indentSize": 2,
+    },
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": true,
+        "markdown": false,
+        "scminput": false,
+        "rust": true,
+        "html": false
+    },
+    "python.testing.pytestArgs": [
+        "other_demos"
+    ],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true
+}
